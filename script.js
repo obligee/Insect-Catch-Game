@@ -50,7 +50,6 @@ function createInsect() {
     insect.style.top = `${y}px`;
     insect.style.left = `${x}px`;
 
-    // ⭐ RANDOM SIZE FEATURE ⭐
     // Generate a random size between 50px and 120px:
     const size = Math.floor(Math.random() * 70) + 50;
 
